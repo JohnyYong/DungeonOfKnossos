@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6576535e315f21c46b877229647adff6, type: 3}
+  m_Name: EnemyBuckets
+  m_EditorClassIdentifier: 
+  trivialEnemies:
+  - {fileID: 2490060695550630930, guid: c0e7925e05c03964f866fc4b9425e464, type: 3}
+  - {fileID: 4320833641694070994, guid: 1bb267617d377ce41af5a9dd325597d0, type: 3}
+  easyEnemies:
+  - {fileID: 1123456212880389530, guid: 2cfb611504e46894ba2ce1646b2728b7, type: 3}
+  - {fileID: 6094933839213559977, guid: a603c96af80133d47885873dd1e08266, type: 3}
+  - {fileID: 5453957238976591803, guid: 2ea1c7558bcba3b468f9f0275c6547e7, type: 3}
+  mediumEnemies:
+  - {fileID: 925161721755746177, guid: 5e7d8dda712bd1a4e98b0cb64f715c00, type: 3}
+  - {fileID: 7338936517774959881, guid: 938528231ea03164f9d6ec26ce02a5d2, type: 3}
+  - {fileID: 8080639912207684115, guid: bf9d3ea1135132342a65be7f1df6678d, type: 3}
+  hardEnemies:
+  - {fileID: 6048948920214717231, guid: 16616d77ae194aa4794c0e3b71b0e189, type: 3}
+  - {fileID: 6906702404710578924, guid: 38b3245bbeb24c641a86a45bf8775804, type: 3}
+  - {fileID: 6843022462163452758, guid: 1857ccc1db183f545821cfad37d5ca04, type: 3}

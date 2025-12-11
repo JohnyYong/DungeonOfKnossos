@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8142826141481316857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8142826141481316859}
+  - component: {fileID: 8142826141481316856}
+  - component: {fileID: 8142826141481316858}
+  m_Layer: 0
+  m_Name: RoomGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8142826141481316859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8142826141481316857}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8142826141481316856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8142826141481316857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba1dc2ad0dfdd044aad533216bfb1816, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactivePlacer: {fileID: 8142826141481316858}
+  enemyBucket: {fileID: 11400000, guid: 47c727f3f2fb95c43a9560fbe50abf17, type: 2}
+  playerRecords: {fileID: 0}
+  overlayStrictPercentReduction: 0.1
+  specialStructurePercentile: 0.3
+  roomPrefabs:
+  - {fileID: 8001777818035945685, guid: 94f2c267c977ca140859f284cd07cb53, type: 3}
+  - {fileID: 6555836219019378395, guid: 0c6aa941aac3fce449f06f2d1d6677c4, type: 3}
+  - {fileID: 4497950665651829292, guid: 4be3760f5efedb24b88aa530da814c76, type: 3}
+  - {fileID: 2975800209271362584, guid: 9346ea8b93c0bb943b0fb9a9650d3768, type: 3}
+  - {fileID: 1603928263726984169, guid: 99b76510b6b4932488fc50333b83a888, type: 3}
+  - {fileID: 2213689280048678109, guid: ae4c6707ae19e6041bd5bfdf7bddd732, type: 3}
+  - {fileID: 3911656633382926488, guid: c93b24ecfd7cd774eb693b29e4d16e52, type: 3}
+  - {fileID: 4020105612006816831, guid: a4e16532b8710d54a9c512239ec12720, type: 3}
+  - {fileID: 8923232983705759978, guid: 2597910a9962d1c4699936356849752a, type: 3}
+  - {fileID: 3611668762745318092, guid: 07a1d446536c3664dbe69953a3b53a4f, type: 3}
+  - {fileID: 2416100797995893894, guid: c29dab480af5ece49ae1648b09d754fc, type: 3}
+  numberOfRooms: 40
+  squarePrefab: {fileID: 8001777818035945685, guid: 94f2c267c977ca140859f284cd07cb53,
+    type: 3}
+  distanceOffset: 1
+  bossRoomPrefabs:
+  - {fileID: 8810821661868082634, guid: a3d810db3a93b6948893cb5f4430c930, type: 3}
+  - {fileID: 4844665735817359244, guid: ebe9214fb048b4746a50415d4d28aab9, type: 3}
+  - {fileID: 8615633134764825237, guid: 8f8cc5bce8b405f4f85d3ebb54b06bd7, type: 3}
+  safeRoomPrefab: {fileID: 7058251460859003697, guid: 8a87d1659c7eb92479b3c265ddfac82b,
+    type: 3}
+  silverKeyPrefab: {fileID: 6674571201968595135, guid: 7c8850bd97170c5439ac5b100d1e7118,
+    type: 3}
+  goldKeyPrefab: {fileID: 22172598698994740, guid: 2638522bc2223554ba9fec749b5012d0,
+    type: 3}
+  purpleKeyPrefab: {fileID: 22172598698994740, guid: dc1ae9e3d9a09e042ab575fe91380e25,
+    type: 3}
+  minLocks: 5
+  maxLocks: 8
+  commonItemPrefabs:
+  - {fileID: 4516855188263611784, guid: 855c3d72b05c23345a50fc4cefc163cd, type: 3}
+  significantItemPrefabs:
+  - {fileID: 4509852169414228752, guid: ee0582eb8dfa86941bbf102607836d7c, type: 3}
+  - {fileID: 8790380160609917880, guid: 6ec0fbb4b52b3cc4ea3afdc30c235a6d, type: 3}
+  - {fileID: 8291010038886876015, guid: f2eb7b6ba1fc1d44a97b730a0606892f, type: 3}
+  maxRareItemCount: 3
+  bossEnemyPrefab: {fileID: 5004054571713212917, guid: 591e1606a9b4cd14e9747f2470ae3ef3,
+    type: 3}
+  minItemPerRoom: 1
+  maxItemPerRoom: 2
+  enemySpawnChance: 0.3
+  toughEnemyChance: 0.2
+  minEnemiesPerRoom: 1
+  maxEnemiesPerRoom: 2
+  maxBossCount: 1
+  portalPrefab: {fileID: 1532129697523406559, guid: c4d781752024af24193491a7ebb8e3ce,
+    type: 3}
+  deadEndRooms: []
+--- !u!114 &8142826141481316858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8142826141481316857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 506eeaf5988b0574ea75422f67c402a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactivePrefabs:
+  - {fileID: 16531094865983221, guid: e92b4c5738b88bd43ad51e08e1ca5845, type: 3}
+  - {fileID: 5664079041902982905, guid: 387fd36b2ad302e4fb94e66dc6571e1e, type: 3}
+  monsterHouseBait:
+  - {fileID: 8790380160609917880, guid: b9d17efa9505bc543aeea4c44a6822f2, type: 3}
+  - {fileID: 4509852169414228752, guid: d99f7f6f14dd73240a6f2eddc4cc1637, type: 3}
+  - {fileID: 8291010038886876015, guid: 54f787f16572a184799548df5bf3b0a2, type: 3}
+  minTrapsPerRoom: 0
+  maxTrapsPerRoom: 2
+  trapSeparationRadius: 2.5
+  trapLayerMask:
+    serializedVersion: 2
+    m_Bits: 1024
